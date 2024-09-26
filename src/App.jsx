@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import Destination from './pages/Destination';
 import './index.css'
 
+
 function App () {
   const location = useLocation();
 
@@ -21,7 +22,7 @@ function App () {
     {!hideHeaderOnRoutes.includes(location.pathname) && <Header />}
     
     <div>
-          {/* <Header /> */}
+          
           
           <Routes>
           <Route path="/" element={<LandingPage />} />

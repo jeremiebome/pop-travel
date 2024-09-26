@@ -6,6 +6,7 @@ import backgroundImage1 from '../assets/travel1.jpg';
 import backgroundImage2 from '../assets/travel2.jpg';
 import backgroundImage3 from '../assets/travel3.jpg';
 import backgroundImage4 from '../assets/landing.png';
+import CardsSection from './DestinationCards';
 
 const LandingPage = () => {
   const settings = {
@@ -19,8 +20,10 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="  relative w-full h-screen overflow-hidden">
+    <div className=" relative w-full overflow-hidden">
+      <div className='h-[100vh] w-full '>
       <Slider {...settings}>
+      
         <div>
           <img src={backgroundImage1} alt="Image 1" className="w-full h-screen object-cover"/>
         </div>
@@ -44,7 +47,13 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      </div>
+      
+      <div>
+      <CardsSection />
+      </div>
     </div>
+    
   );
 };
 

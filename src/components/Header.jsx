@@ -15,7 +15,7 @@ const Header = () => {
           <Link to="/destination" className="text-white hover:text-red-700">Destination</Link>
         </div>
         <div className='flex items-center gap-2 mr-20 '>
-        <Link className="mr-8 ml-[70px] text-white hover:text-red-700" to = "/signin" >
+        <Link className="mr-8 ml-[100px] text-white hover:text-red-700" to = "/signin" >
            <span>Sign in</span>
            </Link>
         <Link className="bg-red-500 text-gray-50 px-6 py-2 rounded-full" to = "/signup"> 
