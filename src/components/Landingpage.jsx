@@ -19,7 +19,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="  relative w-full h-screen overflow-hidden">
       <Slider {...settings}>
         <div>
           <img src={backgroundImage1} alt="Image 1" className="w-full h-screen object-cover"/>
