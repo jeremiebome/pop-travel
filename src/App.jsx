@@ -1,7 +1,7 @@
 // import './app.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from "./components/Header";
-import LandingPage from "./components/Landingpage";
+import LandingPage from "./components/landingpage";
 import SignupPage from './pages/Signup';
 import SigninPage from './pages/Signin';
 import Home from './pages/Home';
@@ -9,6 +9,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Destination from './pages/Destination';
 import './index.css'
+import Newsletter from './components/Newsletter';
 
 
 function App () {
@@ -43,6 +44,7 @@ function MainApp() {
   return (
     <Router>
       <App />
+      <Newsletter />
     </Router>
   );
 }

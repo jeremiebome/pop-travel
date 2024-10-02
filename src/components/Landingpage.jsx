@@ -37,8 +37,8 @@ const LandingPage = () => {
           <img src={backgroundImage4} alt="Image 4" className="w-full h-screen object-cover"/>
         </div>
       </Slider>
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-        <div className="text-white p-5">
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center mb-20 items-center">
+        <div className="text-white p-5 top-5"> 
           <h1 className="text-3xl mb-2">Discover Your Next Adventure</h1>
           <p className="mb-4">Explore the world around you</p>
           <div className="flex gap-2">
